@@ -2,7 +2,7 @@
 import React from 'react'
 import Title from './Title'
 import { HoverEffect } from '@/components/card-hover-effect'
-import { SiDjango, SiFlask, SiGit, SiJavascript, SiMicrosoftazure, SiMongodb, SiNextdotjs, SiNodedotjs, SiOpenai, SiPostgresql, SiPython, SiReact, SiRobotframework, SiSqlalchemy, SiSupabase, SiSvelte, SiTailwindcss } from 'react-icons/si'
+import { SiAmazonaws, SiDjango, SiFlask, SiGit, SiJavascript, SiMicrosoftazure, SiMongodb, SiNextdotjs, SiNodedotjs, SiOpenai, SiPostgresql, SiPython, SiReact, SiRobotframework, SiSelenium, SiSqlalchemy, SiSupabase, SiSvelte, SiTailwindcss } from 'react-icons/si'
 
 export default function skills() {
   const skills = [
@@ -43,8 +43,8 @@ export default function skills() {
       Icon: SiMongodb,
     },
     {
-      text: "Robotframework",
-      Icon: SiRobotframework,
+      text: "Selenium",
+      Icon: SiSelenium,
     },
     {
       text: "Openai API",
@@ -52,7 +52,11 @@ export default function skills() {
     },
     {
       text: "Cloud",
-      Icon: SiMicrosoftazure,
+      Icon: SiAmazonaws,
+    },
+    {
+      text: "Robotframework",
+      Icon: SiRobotframework,
     },
   ]
   return (

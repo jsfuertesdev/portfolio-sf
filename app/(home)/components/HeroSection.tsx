@@ -13,7 +13,7 @@ export default function HeroSection() {
         </h1>
         <p className='md:w-96 text-lg text-gray-300'>
             {
-                "Based in Colombia i'm a fullstack developer Working in create new experiences with AI and blockchain"
+                "Based in Colombia, I'm a Full Stack Developer specialized in creating new experiences through AI Engineering. I work using Python for backend development and Next.js for the frontend interface. I have experience exploring various cloud platforms."
             }
         </p>
         <Link href={"mailto:jsfuertesdev@gmail.com"} className='inline-block group'>
