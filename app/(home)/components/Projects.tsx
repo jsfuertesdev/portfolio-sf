@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  SiAmazonaws,
   SiArduino,
   SiCss3,
   SiFirebase,
@@ -18,6 +19,13 @@ import { DirectionAwareHover } from "./ui/direction-aware-hover";
 
 export default function Projects() {
   const projects = [
+    {
+      title: "Chat with pdf",
+      tech: [SiNextdotjs, SiTailwindcss, SiAmazonaws],
+      link: "https://github.com/jsfuertesdev/chatwithpdf-bedrock-aws",
+      cover: "/user-interface-bedrock.png",
+      Background: "bg-red-500",
+    },
     {
       title: "The Coach",
       tech: [SiNextdotjs, SiTailwindcss],
